@@ -1,0 +1,19 @@
+VER 3 0100000000000001 "blind" "INV_MISC_QUESTIONMARK"
+#showtooltip Blind
+/cast [@focus, exists] Blind; Blind
+END
+VER 3 0100000000000003 "cast" "INV_MISC_QUESTIONMARK"
+#showtooltip Nachtklinge
+/cast Schattentanz
+/cast Nachtklinge
+END
+VER 3 0100000000000004 "Focus Kidney" "INV_MISC_QUESTIONMARK"
+#showtooltip Kidney Shot
+/cast [@focus] Shadowstep
+/cast [@focus] Kidney Shot
+END
+VER 3 0100000000000002 "Kick" "INV_MISC_QUESTIONMARK"
+#showtooltip Kick
+/cast [@focus] Shadowstep
+/cast [@focus] Kick
+END

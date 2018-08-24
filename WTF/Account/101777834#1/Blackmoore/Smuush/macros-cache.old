@@ -1,0 +1,17 @@
+VER 3 0100000000000006 "Avatar + CD" "613534"
+#showtooltip
+/use 13
+/use 14
+/cast Avatar
+END
+VER 3 0100000000000007 "KS" "236303"
+#showtooltip Klingensturm
+/use 13
+/use 14
+/cast Klingensturm
+END
+VER 3 0100000000000003 "MS" "INV_MISC_QUESTIONMARK"
+#showtooltip Tödlicher Stoß
+/cast Klinge schärfen
+/cast Tödlicher Stoß
+END

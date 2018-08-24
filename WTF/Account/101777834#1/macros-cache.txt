@@ -1,0 +1,70 @@
+VER 3 0000000000000014 "AAP_MACRO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Rolle der Sturmbändigung
+END
+VER 3 0000000000000010 "devstance" "INV_MISC_QUESTIONMARK"
+#showtooltip Verteidigungshaltung
+/targetenemy [noharm]
+/cast Verteidigungshaltung
+/cast [stance:1] Spott
+END
+VER 3 0000000000000001 "DMG" "ABILITY_CRITICALSTRIKE"
+#showtooltip Tollkühnheit
+/cast Tollkühnheit
+/cast Kochendes Blut(Volksfähigkeit)
+/cast Schädelbanner
+/cast Avatar
+END
+VER 3 0000000000000013 "DT" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nopet] Totenerweckung;!Dunkle Transformation
+END
+VER 3 0000000000000002 "einschreiten" "INV_MISC_QUESTIONMARK"
+#showtooltip Einschreiten
+/cast [@Gorghon] Einschreiten
+/cast [@Kraterfratze] Einschreiten
+/cast [@mouseover] Einschreiten
+/cast Einschreiten
+END
+VER 3 0000000000000012 "Focus Kick" "INV_MISC_QUESTIONMARK"
+#showtooltip Pummel
+/cancelaura Klingensturm
+/cast [@focus] Pummel
+END
+VER 3 000000000000000D "fstormbold" "INV_MISC_QUESTIONMARK"
+#showtooltip Storm Bolt
+/cast [@focus, exsists] Storm Bolt;Storm Bolt
+END
+VER 3 000000000000000C "kick" "INV_MISC_QUESTIONMARK"
+#showtooltip Pummel
+/cancelaura Bladestorm
+/cast Pummel
+END
+VER 3 0000000000000009 "Klingensturm" "INV_MISC_QUESTIONMARK"
+#showtooltip Klingensturm
+/cast Weitreichende Stöße
+/cast Klingensturm
+END
+VER 3 0000000000000003 "Mount" "INV_MISC_QUESTIONMARK"
+#showtooltip X-53 Reiserakete
+/use X-53 Reiserakete
+/use Feuerstuhl
+END
+VER 3 000000000000000E "mstormbold" "INV_MISC_QUESTIONMARK"
+#showtooltip Sturmblitz
+/cast [@mouseover, exsists] Sturmblitz; Sturmblitz
+END
+VER 3 000000000000000F "shildbarrier" "INV_MISC_QUESTIONMARK"
+#showtooltip Schildbarriere
+/cast Verteidigungshaltung
+/cast Schildbarriere
+END
+VER 3 0000000000000011 "ss" "INV_MISC_QUESTIONMARK"
+#showtooltip Sicherung
+/cast [@mouseover, exsists] Sicherung; Sicherung
+END
+VER 3 0000000000000005 "throw" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Heldenhafter Wurf
+/cast Werfen
+END
